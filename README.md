@@ -86,29 +86,6 @@ To integrate with Firebase Cloud Messaging:
 2. **Incoming Call**: Simulates WhatsApp-style call notification
 3. **Background Testing**: Kill the app and trigger notifications externally
 
-## Android 15 Specific Features
 
-- Uses `compileSdkVersion` and `targetSdkVersion` 35
-- Implements latest notification permission handling
-- Configured for new Android notification behaviors
-- Supports notification channels with proper importance levels
 
-## Production Considerations
 
-- Implement proper FCM token refresh handling
-- Add notification analytics and tracking
-- Implement proper error handling and fallbacks
-- Configure notification scheduling and batching
-- Add notification sound and icon customization
-
-## Deployment
-
-For production deployment with native modules:
-1. Create production build with EAS Build
-2. Configure proper signing certificates
-3. Test on various Android versions
-4. Submit to Google Play Store
-
----
-
-This demo provides a solid foundation for implementing WhatsApp-like notifications in React Native with Android 15 support.# Notification-like
